@@ -1,6 +1,8 @@
 <template>
   <div>
     <nav class="
+    fixed top-0
+    w-full
   flex flex-wrap
   items-center
   justify-between
@@ -71,7 +73,7 @@
      <section id="home" class="pt-5  bg-slate-100">
       <div class="container">
         <div class="flex flex-wrap">
-          <div class="w-full self-center pr-4 pl-16 lg:w-1/2 sm:w-10 md:w-1/2">
+          <div  data-aos="zoom-in" data-aos-duration="5000 " class="w-full self-center pr-4 pl-16 lg:w-1/2 sm:w-10 md:w-1/2">
               <h1 class="text-base font-semibold text-teal-500 md:text-xl" >Hallo Semua👋,
                 Saya <span class="block font-bold text-slate-900 text-4xl mt-1 lg:text-5xl md:text-4xl"> Alvin</span></h1>
               <h2 class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl md:text-2xl">Pelajar SMKN 2 Tenggalek</h2>
@@ -80,7 +82,7 @@
               hover:opacity-80 transition duration-300 ease-in-out">Hubungi Saya
             </a>
           </div>
-          <div class="w-full self-end px-4 lg:w-1/2 sm:w-8 md:w-1/2">
+          <div data-aos="zoom-in" data-aos-duration="5000" class="w-full self-end px-4 lg:w-1/2 sm:w-8 md:w-1/2">
             <div class="relative mt-10 lg:mt-9 lg:right-0">
               <img src="/botak.png" alt=""
               class="max-w-full mx-auto" />
@@ -92,12 +94,12 @@
     <section id="about" class="pt-36 pb-32">
        <div class="container">
         <div class="flex flex-wrap">
-         <div class="w-full px-4 mb-10 lg:w-1/2 md:w-1/2">
+         <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000" class="w-full px-4 mb-10 lg:w-1/2 md:w-1/2">
             <h4 class="text-teal-500 font-bold uppercase mb-5">Tentang Saya</h4>
             <h2 class="font-bold text-slate-900 text-3xl mb-5 max-w-md lg-text-4xl">Alamat Rumah</h2>
             <p class="font-medium text-slate-500 text-base max-w-xl lg:text-lg">Jalan Pangeran Diponegoro No 74 Trenggalek Sumbergedong</p>
          </div>
-         <div class="w-fullp px-4 lg:w-1/2 md:w-1/2">
+         <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000"  class="w-full px-4 lg:w-1/2 md:w-1/2">
           <h3 class="text-teal-500 font-bold uppercase mb-5 lg:pt-10">Berteman Yuk</h3>
           <h2 class="font-bold text-slate-900 text-3xl mb-5 max-w-md lg-text-4xl">Sosial Mediaku</h2>
           <p class="font-medium text-slate-500 text-base mb-6 lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, vitae magni!
@@ -135,18 +137,18 @@
     <section id="projek" class="pt-36 pb-16 bg-slate-100">
       <div class="container">
         <div class="w-full px-4">
-          <div class="max-w-xl mx-auto text-center mb-16">
+          <div data-aos="fade-up" data-aos-duration="3000" class="max-w-xl mx-auto text-center mb-16">
             <h4 class="font-semibold text-lg text-teal-500 mb-2">Hasil Projek</h4>
             <h2 class="font-bold text-slate-900 text-3xl mb-4  sm:text-4xl
             lg:text-5xl">Projek Saya</h2>
             <p class="font-medium text-md text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
                pariatur velit aliquid nisi iusto excepturi?
-          </p>
+            </p>
           </div>
         </div>
         <div class="wfull px-4 flex flex-wrap justify-center xl:w-10/12
         xl:mx-auto">
-          <div class="mb-12 p-4 md:w-1/2">
+          <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="mb-12 p-4 md:w-1/2">
             <div class="rounded-md shadow-md overflow-hidden hover:scale-110 transition duration-300 ease-in-out">
               <img src="/1.png" alt="" width="w-full">
             </div>
@@ -155,7 +157,7 @@
             <p class="fontt-medium text-base text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ipsum
                asperiores cumque eos nemo at nam!</p>
           </div>
-          <div class="mb-12 p-4 md:w-1/2">
+          <div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="mb-12 p-4 md:w-1/2">
             <div class="rounded-md shadow-md overflow-hidden hover:scale-110 transition duration-300 ease-in-out">
               <img src="/i.png" alt="" width="w-full">
             </div>
@@ -164,16 +166,16 @@
             <p class="fontt-medium text-base text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ipsum
                asperiores cumque eos nemo at nam!</p>
           </div>
-          <div class="mb-12 p-4 md:w-1/2">
+          <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="mb-12 p-4 md:w-1/2">
             <div class="rounded-md shadow-md overflow-hidden hover:scale-110 transition duration-300 ease-in-out">
-              <img src="/s.png" alt="" width="w-full">
+              <img src="/psk.png" alt="" width="w-full">
             </div>
             <h3 class="font-semibold text-xl text-slate-900 mt-5 
-            mb-3">form daftar Alvin Top </h3>
+            mb-3">Persik APP</h3>
             <p class="fontt-medium text-base text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ipsum
                asperiores cumque eos nemo at nam!</p>
           </div>
-          <div class="mb-12 p-4 md:w-1/2">
+          <div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="mb-12 p-4 md:w-1/2">
             <div class="rounded-md shadow-md overflow-hidden hover:scale-110 transition duration-300 ease-in-out">
               <img src="/izin.png" alt="" width="w-full">
             </div>
@@ -188,7 +190,7 @@
     <section id="pendidikan" class="pt-36 pb-32 bg-slate-700">
       <div class="container">
         <div class="w-full px-4">
-          <div class=" mx-auto text-center mb-16">
+          <div data-aos="fade-down" duration="3000" data-aos-easing="linear" class=" mx-auto text-center mb-16">
             <h4 class="font-semibold text-lg text-teal-500 mb-2">Pendidikan</h4>
             <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl
             lg:text-5xl">Perjalanan Pendidikan</h2>
@@ -199,16 +201,16 @@
         </div>
         <div class="w-full px-4">
           <div class="flex flex-wrap items-center justify-center">
-            <a href="" class="max-w-[120px] mx-4 py-4 grayscale
+            <div data-aos="flip-right" data-aos-duration="3000" class="max-w-[120px] mx-4 py-4 grayscale
             opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100
             lg:mx-6 xl:mx-8">
               <img src="/smk.png" alt="">
-            </a>
-            <a href="" class="max-w-[120px] mx-4 py-4 grayscale
+          </div>
+            <div data-aos="flip-left" data-aos-duration="3000" class="max-w-[120px] mx-4 py-4 grayscale
             opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100
             lg:mx-6 xl:mx-8">
               <img src="/smp.png" alt="">
-            </a>
+        </div>
           </div>
         </div>
       </div>
@@ -226,7 +228,7 @@
           </div>
         </div>
         <div class="flex flex-wrap">
-          <div class="w-full px-4 lg:w-1/2 xl:w-1/3 md:w-1/2 hover:scale-90 transition duration-300 ease-in-out">
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/4 md:w-1/2 hover:scale-90 transition duration-300 ease-in-out">
             <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
               <img src="https://source.unsplash.com/360x200?mechanical+keyboard" alt="" class="w-full">
               <div class="py-5 px-3">
@@ -241,7 +243,7 @@
               </div>
             </div>
           </div>
-          <div class="w-full px-4 lg:w-1/2 xl:w-1/3 md:w-1/2 hover:scale-90 transition duration-300 ease-in-out">
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/4 md:w-1/2 hover:scale-90 transition duration-300 ease-in-out">
             <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
               <img src="https://source.unsplash.com/360x200?coffee" alt=""
                class="w-full">
@@ -257,14 +259,14 @@
               </div>
             </div>
           </div>
-          <div class="w-full px-4 lg:w-1/2 xl:w-1/3 md:w-1/2 hover:scale-90 transition duration-300 ease-in-out">
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/4 md:w-1/2 hover:scale-90 transition duration-300 ease-in-out">
             <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10 ">
               <img src="https://source.unsplash.com/360x200?programming"  alt=""
                class="w-full ">
               <div class="py-5 px-3">
                 <h3>
                   <a href="" class="block mb-3 font-semibold text-xl
-                  text-slate-900 hover:text-teal-500 truncate">Tips Belajar Programming</a>      
+                  text-slate-900 hover:text-teal-500 truncate">Tips Belajar Programming</a>
                   </h3>
                    <p class="font-medium text-base text-slate-500
                    mb-4">Lorem ipsum dolor sit amet consectetur
@@ -273,7 +275,7 @@
               </div>
             </div>
           </div>
-          <div class="w-full px-4 lg:w-1/2 xl:w-1/3 md:w-1/2 hover:scale-90 transition duration-300 ease-in-out">
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/4 md:w-1/2 hover:scale-90 transition duration-300 ease-in-out">
             <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10 ">
               <img src="https://source.unsplash.com/360x200?coding"  alt=""
                class="w-full ">
@@ -303,9 +305,9 @@
                pariatur velit aliquid nisi iusto excepturi?
           </p>
           </div>
-        </div>   
+        </div>
           <form>
-            <div class="w-full lg:w-2/3 lg:mx-auto">    
+            <div data-aos="zoom-out-up" data-aos-duration="4000" class="w-full lg:w-2/3 lg:mx-auto">
             <div class="w-full px-4 mb-8">
               <label for="name" class="text-base font-bold
               text-teal-500">Nama</label>
