@@ -307,7 +307,7 @@
           </div>
         </div>
           <form>
-            <div data-aos="zoom-out-up" data-aos-duration="4000" class="w-full lg:w-2/3 lg:mx-auto">
+            <div class="w-full lg:w-2/3 lg:mx-auto">
             <div class="w-full px-4 mb-8">
               <label for="name" class="text-base font-bold
               text-teal-500">Nama</label>
