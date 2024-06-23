@@ -11,7 +11,7 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/botak.png' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: 'botak.png'}],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -54,15 +54,4 @@ export default {
       },
     },
   },
-  router: {
-        scrollBehavior(to) {
-          if (to.hash) {
-            return window.scrollTo({
-              top: document.querySelector(to.hash).offsetTop + window.innerHeight,
-              behavior: 'smooth'
-            })
-          }
-          return window.scrollTo({ top: 0, behavior: 'smooth' })
-        }
-      },
 }

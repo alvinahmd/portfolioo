@@ -1,12 +1,14 @@
 {
   "entry": "server.js",
   "files": {
+    "components/navbar.js": "components/navbar.js",
     "components/nuxt-logo.js": "components/nuxt-logo.js",
     "components/tutorial.js": "components/tutorial.js",
     "pages/index.js": "pages/index.js",
     "server.js": "server.js"
   },
   "maps": {
+    "components/navbar.js": "components/navbar.js.map",
     "components/nuxt-logo.js": "components/nuxt-logo.js.map",
     "components/tutorial.js": "components/tutorial.js.map",
     "pages/index.js": "pages/index.js.map",
